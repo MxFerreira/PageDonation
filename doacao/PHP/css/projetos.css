@@ -1,0 +1,175 @@
+/* #F1F1F1 (off white) - #FBEBDB (Creme) - #6EA58D (Verde claro) - #40715C (Verde Escuro)
+
+
+
+##56c9eb;  azul fraco
+##08568f;  azul escuro
+
+
+
+
+
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    color: red;
+}
+
+.container-fluid{
+    max-width: 2000px; 
+
+}
+
+.navbar {
+    background-color: #08568f ;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link{
+    font-size: 25px ;
+    color: #F1F1F1 !important;
+    font-weight: bold;
+} 
+
+.navbar-nav .nav-link:hover {
+    color: #FBEBDB !important;
+}
+
+.my-5.container-fluid .col-12 {
+    color: #F1F1F1;
+    font-size: 20px;
+}
+
+.my-5.container-fluid .col-12 h5{
+    font-size: 35px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.my-5.container-fluid .col-12 p{
+    padding-bottom: 15px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.my-5.container-fluid .btn{
+    background-color: #FBEBDB;
+    color: #40715C;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.my-5.container-fluid .btn:hover{
+    background-color: #f0d3b7;
+    color: #2b5040;
+}
+
+
+.my-5 {
+    background-color: #08568f;
+    height: pc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+														
+
+.carousel {
+    margin: 20px auto;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #FBEBDB;
+}
+
+
+
+.logo.final {
+    max-width: 200px;
+    height: auto;
+}
+
+.btn-outline-custom{
+    color: #F1F1F1;
+    border-color: #96ef5a;;
+}
+
+/* Estilo do botão */
+.custom-button {
+    color: white; /* Cor do texto */
+    background-color: #56c9eb;  /* Fundo azul */
+    border: 2px solid #0056b3; /* Borda azul escura */
+    padding: 2px 5px; /* Reduz o espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas menores */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    display: inline-block; /* Garante que o botão se ajuste ao texto */
+    text-align: center; /* Centraliza o texto */
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+/* Hover: Estilo ao passar o mouse */
+.custom-button:hover {
+    background-color: #56c9eb;  /* Fundo mais escuro */
+    color: #ffffff; /* Cor do texto */
+    transform: scale(1.05); /* Pequeno efeito de zoom */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
+
+/* Remove estilo padrão do link ao clicar */
+.custom-button:active {
+    text-decoration: none;
+    transform: scale(1);
+    color: white;
+}
+
+
+/*TITULO*/
+.navbar-brand-title {
+        font-size: 3.5rem; /* Tamanho do título */
+        font-weight: bold; /* Deixa o título em negrito */
+        color: #ffffff; /* Cor azul personalizada */
+		text-align: center; /* Centraliza o texto */
+        margin-left: 400px; /* Espaçamento entre o logo e o título */
+		
+        text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    }
+	
+.navbar-brand-title:hover {
+        background-color: #08568f;  /* Fundo mais escuro */
+		color: #ffffff; /* Cor do texto */
+		border-radius: 15px; /* Bordas arredondadas menores */
+		transform: scale(1.05); /* Pequeno efeito de zoom */
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+    }
+	
+	/* Classe para o efeito de fade-in */
+    .fade-in-image {
+        opacity: 0; /* Começa invisível */
+        transform: translateY(20px); /* Move levemente para baixo */
+        transition: opacity 2s ease-in-out, transform 2s ease-in-out; /* Animação suave */
+    }
+
+    /* Quando a imagem estiver visível */
+    .fade-in-image.visible {
+        opacity: 1; /* Torna visível */
+        transform: translateY(0); /* Retorna à posição original */
+    }
